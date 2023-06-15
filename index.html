@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/icon/favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.inview.min.js"></script>
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+    <!-- modal_cdn -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal-default-theme.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal.min.js"></script>
+    <title>Profile</title>
+</head>
+
+<body>
+    <header class="container">
+        <h1><a href="">Profile</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Works">Works</a></li>
+                <li><a href="https://github.com/k0t0ri" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <ul class="slider">
+                <li><img src="assets/img/hero/no3.png" alt=""></li>
+                <li><img src="assets/img/hero/no2.png" alt=""></li>
+                <li><img src="assets/img/hero/no1.png" alt=""></li>
+            </ul>
+        </div>
+        <div id="About" class="about container fadeUp">
+            <h2>About</h2>
+            <div class="contents">
+                <img src="assets/img/icon/icon.jpg" alt="">
+                <div class="intro">
+                    <h3>k0t0ri</h3>
+                    <p>小鳥という名前で活動しています。大学一年生です。HTMLとCSS,JavaScriptを勉強してウェブサイト作っています。中高では写真部、アート&アニメーションクラブに所属していました。現在は大学でPiedPier青山テック愛好会に所属しています。ここに掲載しているもの以外にも、動画編集やアニメーションを作成したりしています。
+                    </p>
+                    <h4>使用機材</h4>
+                    <p>Lumix DMC-GX1,iPad7th gen,Apple pencil 1st gen,ASUS laptop ryzen5 RAM16GB</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="Works" class="works container fadeUp">
+            <h2>Works-drawing</h2>
+            <ul>
+                <li>
+                    <a href="#modal_dr1">
+                        <img src="assets/img/works/dr1.png" alt="">
+                        <div class="text">
+                            <h3>『片想い』</h3>
+                            <p>この想いはいつか届くのかな</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_dr1">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『片想い』</h1>
+                        <img src="assets/img/works/dr1.png" alt="">
+                        <p>この想いはいつか届くのかな。高校生の時に描いた一枚です。背景はアナログで水彩絵具で描き、ソフト上で加工しました。使用機材 iPad 7th gen, Meiko stylus pen,
+                            ibis paint</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#modal_dr2">
+                        <img src="assets/img/works/dr2.png" alt="">
+                        <div class="text">
+                            <h3>『88の音』</h3>
+                            <p>音よ、届け</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_dr2">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『88の音』</h1>
+                        <img src="assets/img/works/dr2.png" alt="">
+                        <p>音よ、届け。88鍵の音が奏でるこの音は君のもとに届くだろうか。使用機材 iPad 7th gen, Appple pencil 1st gen, ibis paint</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#modal_dr3">
+                        <img src="assets/img/works/dr3.png" alt="">
+                        <div class="text">
+                            <h3>『始まりの朝』</h3>
+                            <p>なにかわくわくすることが始まる予感</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_dr3">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『始まりの朝』</h1>
+                        <img src="assets/img/works/dr3.png" alt="">
+                        <p>なにかわくわくすることが始まる予感。年賀状用に描いた一枚です。使用機材 iPad 7th gen, Appple pencil 1st gen, ibis paint</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <div id="Works" class="works container fadeUp">
+            <h2>Works-photo</h2>
+            <ul>
+                <li>
+                    <a href="#modal_ph1">
+                        <img src="assets/img/works/ph1.png" alt="">
+                        <div class="text">
+                            <h3>『折り紙-くす玉』</h3>
+                            <p>折り紙作品を撮影しました。</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_ph1">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『折り紙-くす玉』</h1>
+                        <img src="assets/img/works/ph1.png" alt="">
+                        <p>折り紙作品を撮影しました。高校のPhotographyの授業で、白い背景とライトを用いて小物を撮影する課題で撮った一枚です。2020.10.07 f/6.3 1/250 iso160
+                            25mm</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="#modal_ph2">
+                        <img src="assets/img/works/ph2.jpg" alt="">
+                        <div class="text">
+                            <h3>『SAKURA』</h3>
+                            <p>春に大阪城公園で撮った一枚です。</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_ph2">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『SAKURA』</h1>
+                        <img src="assets/img/works/ph2.jpg" alt="">
+                        <p>春に大阪城公園で撮った一枚です。桜とお城を両方写すため、構図を工夫しました。2019.03.31. f/5 1/3200 ios0160 26mm</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="#modal_ph3">
+                        <img src="assets/img/works/ph3.jpg" alt="">
+                        <div class="text">
+                            <h3>『のどかな日々』</h3>
+                            <p>冬眠を控えたリスが食料を探しに来ていました。</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_ph3">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『のどかな日々』</h1>
+                        <img src="assets/img/works/ph3.jpg" alt="">
+                        <p>冬眠を控えたリスが食料を探しに来ていました。芝生に寝っ転がって、リスを怖がらせないよう少しずつ近づいて撮った一枚です。2020.11.04 f/5.6 1/125 iso-160
+                            25mm</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="Works" class="works container fadeUp">
+            <h2>Works-advertisement</h2>
+            <ul>
+                <li>
+                    <a href="#modal_po1">
+                        <img src="assets/img/works/po1.jpg" alt="">
+                        <div class="text">
+                            <h3>『ボトル飲料広告』</h3>
+                            <p>オリジナルの飲料を考え、作成しポスターにしました。</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_po1">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『ボトル飲料広告』</h1>
+                        <img src="assets/img/works/po1.jpg" alt="">
+                        <p>オリジナルの飲料を考え、作成しポスターにしました。実際に、商品のラベルの作成から撮影、編集までAdobePhotoshopを用いて行いました。</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="#modal_po2">
+                        <img src="assets/img/works/po2.png" alt="">
+                        <div class="text">
+                            <h3>『告知ポスター』</h3>
+                            <p>映画鑑賞会を友人と行う際に告知として作成しました。</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_po2">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『告知ポスター』</h1>
+                        <img src="assets/img/works/po2.png" alt="">
+                        <p>映画鑑賞会を友人と行う際に告知として作成しました。AdobeIllustratorを使用しました。</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="#modal_po3">
+                        <img src="assets/img/works/po3.jpg" alt="">
+                        <div class="text">
+                            <h3>『秋桜-ロゴ』</h3>
+                            <p>文化祭の団体のロゴを3Dで作成しました。</p>
+                        </div>
+                    </a>
+                    <div class="remodal" data-remodal-id="modal_po3">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h1>『秋桜-ロゴ』</h1>
+                        <img src="assets/img/works/po3.jpg" alt="">
+                        <p>文化祭の団体のロゴを3Dソフトで作成しました。このほかにもロゴの作成はいくつか行っています。</p>
+                        <br>
+                        <button data-remodal-action="cancel" class="remodal-cancel">x</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="container">
+        <p class="copyright">&copy;Copyright Profile 2023.06.</p>
+    </footer>
+</body>
+
+</html>
